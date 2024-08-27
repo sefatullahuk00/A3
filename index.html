@@ -8,7 +8,46 @@
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
- 
+<body class="manrope">
+    <header class="py-10 px-7 sm:px-3 bg-gradient-to-b from-gray-200 to-gray-50">
+        <!-- nav bar  -->
+        <div class="container container-md container-lg container-xl mx-auto flex justify-between items-center">
+            <div id="logo" class="flex items-center">
+                <i class="fa-solid fa-arrow-right-long p-2 rounded rounded-full bg-[#ABEF5F] -rotate-45"></i>
+                <span class="manrope text-4xl font-extrabold ml-2">Rinterio</span>
+            </div>
+            <ul id="lav-links" class="hidden md:flex justify-between md:gap-4 md:gap-6 flex-wrap">
+                <li><a class="manrope text-lg text-black font-extrabold">Home</a></li>
+                <li><a class="manrope text-lg font-normal text-[#737373]">Services</a></li>
+                <li><a class="manrope text-lg font-normal text-[#737373]">Portfolio</a></li>
+                <li><a class="manrope text-lg font-normal text-[#737373]">Blogs</a></li>
+                <li><a class="manrope text-lg font-normal text-[#737373]">Contact Us</a></li>
+            </ul>
+            <div id="nav-toggle" class="hidden sm:flex sm:gap-3 items-center">
+                <i class="p-3 text-md bg-white border rounded rounded-[56px] fa-solid fa-magnifying-glass"></i>
+                <i class="p-3 text-md bg-white border rounded rounded-[56px] fa-solid fa-cart-shopping"></i>
+                <button class="bg-[#ABEF5F] py-3 px-5 rounded rounded-full">
+                    <span class="font-extrabold text-xl">Book Consult</span>
+                    <i class="fa-solid fa-arrow-right-long ml-2 bg-black text-white p-2 rounded rounded-full -rotate-45"></i>
+                </button>
+            </div>
+            <i class="fa-solid fa-bars md:hidden p-3 bg-white rounded rounded-full text-md cursor-pointer"></i>
+        </div>
+        <!-- banner  -->
+        <div class="container mx-auto mt-9" id="banner">
+            <div>
+                <img class="mx-auto" src="./assets/banner.png" alt="">
+            </div>
+            <h1 class="text-3xl sm:text-4xl md:text-6xl font-extrabold text-center mt-6 lg:w-4/5 mx-auto">A barn house of this design has a striking appearance</h1>
+            <p class="text-[#494949] text-sm sm:text-base font-medium text-center mt-6 lg:w-4/5 md:w-3/4 mx-auto">
+                Interior Design is the art, science, and business planning of a creative, technical, sustainable, and functional interior solution that corresponds to the architecture of a space, while incorporating process and strategy, a mandate for well-being, safety, and health, with informed decisions about style and aesthetics.
+            </p>
+            <button class="bg-[#ABEF5F80] rounded rounded-full px-5 py-2 mt-7 w-full sm:w-auto block mx-auto">
+                <a href="#">View Details <i class="fa-solid fa-arrow-right-long p-2 rounded rounded-full bg-[#ABEF5F] -rotate-45"></i></a>
+            </button>
+        </div>
+    </header>
+
+    
 </body>
 </html>

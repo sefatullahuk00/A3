@@ -1,6 +1,28 @@
 /* 
+main marks
+1. nav
+2. banner
+3. about us
+4. how we work
+5. let's discuss new project
+6. footer 
 
 
+challenge
+1. our latest portfolio
+2. unique section
 
+optional
+1. count section
+2. read our articales and news
 
 */
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.manrope{
+    font-family: "Manrope", sans-serif;
+}
+#about-us #about-divide > * {
+    /* flex-basis: 39%; */
+}
